@@ -18,12 +18,12 @@
 -->
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
-    <style name="ThemeCamera" parent="android:Theme.Holo.NoActionBar.Fullscreen">
+    <style name="ThemeCamera" parent="android:Theme.Material.NoActionBar.Fullscreen">
         <item name="android:windowBackground">@android:color/black</item>
         <item name="android:colorBackground">@android:color/black</item>
         <item name="android:colorBackgroundCacheHint">@android:color/black</item>
     </style>
-    <style name="OnScreenHintTextAppearance">
+    <style name="OnScreenHintTextAppearance" parent="android:TextAppearance.Material">
         <item name="android:textColor">@android:color/primary_text_dark</item>
         <item name="android:textColorHighlight">#FFFF9200</item>
         <item name="android:textColorHint">#808080</item>
@@ -31,7 +31,7 @@
         <item name="android:textSize">16sp</item>
         <item name="android:textStyle">normal</item>
     </style>
-    <style name="OnScreenHintTextAppearance.Small">
+    <style name="OnScreenHintTextAppearance.Small" parent="android:TextAppearance.Material">
         <item name="android:textSize">14sp</item>
         <item name="android:textStyle">normal</item>
         <item name="android:textColor">@android:color/secondary_text_dark</item>
